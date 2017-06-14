@@ -15,7 +15,7 @@ import com.cn.hnust.service.IUserService;
 
 @Controller
 @RequestMapping("/user")
-public class UserController {
+public class UserController {  
 	@Resource
 	private IUserService userService;
 	
