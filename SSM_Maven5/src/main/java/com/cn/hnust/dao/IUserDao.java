@@ -1,5 +1,9 @@
 package com.cn.hnust.dao;
 
+import java.util.List;
+
+import org.apache.ibatis.annotations.Param;
+
 import com.cn.hnust.pojo.User;
 
 public interface IUserDao {
@@ -14,4 +18,8 @@ public interface IUserDao {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+    
+    List<User> selectAll();
+    
+    List<User> selectLike(@Param("p")String p);
 }
