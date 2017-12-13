@@ -189,9 +189,15 @@
 		</dependency>  
 		<dependency>  
 			<groupId>org.ehcache</groupId>  
-			<artifactId>ehcache</artifactId>  
+			<artifactId>ehcache</artifactId>   
 			<version>3.0.0.m3</version>  
 		</dependency>  
+        <!-- sqllite -->
+        <dependency>
+		    <groupId>org.xerial</groupId>
+		    <artifactId>sqlite-jdbc</artifactId>
+		    <version>3.21.0.1</version>
+		</dependency>
         
         
   </dependencies>
